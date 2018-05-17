@@ -117,7 +117,6 @@ input[type=submit]:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	line-height: 5000%;
-	border-radius: 80%;
 }
 
 #images_texte {
@@ -126,7 +125,7 @@ input[type=submit]:hover {
 	margin-top: 2%;
 	border: solid rgb(6, 165, 165) 4px;
 	background-color: rgb(75, 116, 177);
-	border-radius: 8%;
+	border-radius: 3%;
 }
 
 .center {
@@ -258,3 +257,8 @@ div#slider figure img {
 }
 
 /* -------------------------FOOTER SOCIALS ICONS end ---------------------*/
+
+@media all and (max-width:480px)
+{
+
+}
